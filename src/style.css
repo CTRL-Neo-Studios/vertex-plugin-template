@@ -1,0 +1,2 @@
+/* Tailwind's utilities against Vertex's theme: `text-muted`, `bg-elevated`, the app's colours and fonts. */
+@import "@type32/vertex-plugin/tailwind.css";
