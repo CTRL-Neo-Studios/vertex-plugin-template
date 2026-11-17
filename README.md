@@ -19,8 +19,9 @@ bun run build       # dist/, the folder Vertex installs, and plugin.zip
 bun run typecheck
 ```
 
-In Vertex: Settings → Plugins → Install… ▾ → **From a folder (development)…**, and pick this folder (Vertex finds the
-build in `dist/`). Vertex watches it: run `bunx vite build --watch` and the window reloads with each build.
+In Vertex: Settings → Plugins → Install… ▾ → **From a folder (development)…**, and pick `dist/` (not the project: the
+whole folder is copied and watched). Vertex watches it: run `bunx vite build --watch` and the window reloads with
+each build.
 
 ## Release
 
