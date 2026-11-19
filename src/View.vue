@@ -7,8 +7,8 @@ const {t} = props.ctx.i18n
 </script>
 
 <template>
-    <div class="flex items-center gap-2 p-3 text-sm text-muted">
-        <img class="size-4" :src="ctx.plugin.assetUrl('logo.svg')" alt="">
+    <div class="tw:flex tw:items-center tw:gap-2 tw:p-3 tw:text-sm tw:text-muted">
+        <img class="tw:size-4" :src="ctx.plugin.assetUrl('logo.svg')" alt="">
         <span>{{ t('plugins.my-plugin.hello', {name: ctx.plugin.id}) }}</span>
         <UButton size="xs" icon="i-lucide-sparkles" variant="soft"/>
     </div>
